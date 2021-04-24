@@ -63,12 +63,7 @@ class Main {
 // добавить пропущенный вызов
                     System.out.println("Введите номер телефона пропущенного вызова: ");
                     String missedCallNUmber = scanner.nextLine();
-//                    String thisContact = myContacts.checkContact(missed);
-//                    if (thisContact != null){
-//                        myMissedCalls.addMissedCall(thisContact);
-//                    } else {
-                        myMissedCalls.addMissedCall(missedCallNUmber);
-//                    }
+                    myMissedCalls.addMissedCall(missedCallNUmber);
                     break;
 
                 case 5:
